@@ -72,7 +72,7 @@ echo "Wordpress allalaetud ning lahtipakitud!"
 # Konfigureeritakse wordpress
 cd /var/www/html/wordpress/
 sed -i 's/database_name_here/wordpress/g' wp-config.php
-sed -i 's/username_here/wpuser/g' wp-config.php
+sed -i 's/username_here/wordpressuser/g' wp-config.php
 sed -i 's/password_here/qwerty/g' wp-config.php
 echo "Wordpress on konfigureeritud!"
 
