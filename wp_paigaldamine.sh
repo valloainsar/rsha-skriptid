@@ -53,7 +53,7 @@ fi
 # Luuakse kõik vajalikud andmebaasi ning kasutajad
 mysql <<EOF
 CREATE DATABASE wordpress;
-CREATE USER 'wordpressuser'@'localhost' IDENTIFIED BY 'password';
+CREATE USER 'wordpressuser'@'localhost' IDENTIFIED BY 'qwerty';
 GRANT ALL PRIVILEGES ON wordpress.* TO 'wordpressuser'@'localhost';
 FLUSH PRIVILEGES;
 EOF
